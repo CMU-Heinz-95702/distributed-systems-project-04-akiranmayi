@@ -1,0 +1,17 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <display-name>Currency Converter</display-name>
+
+    <servlet>
+        <servlet-name>CurrencyConverterServlet</servlet-name>
+        <servlet-class>ds.project4_currencyconverter.CurrencyConverterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CurrencyConverterServlet</servlet-name>
+        <url-pattern>/convertCurrency</url-pattern>
+    </servlet-mapping>
+</web-app>
