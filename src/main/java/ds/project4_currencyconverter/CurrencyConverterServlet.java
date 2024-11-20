@@ -33,7 +33,7 @@ import java.util.Map;
  * It uses the Fixer API to fetch real-time exchange rates and calculates
  * the converted amount based on user input.
  */
-@WebServlet("/convertCurrency")
+//@WebServlet("/convertCurrency")
 public class CurrencyConverterServlet extends HttpServlet {
 
     // Base URL for the Fixer API
