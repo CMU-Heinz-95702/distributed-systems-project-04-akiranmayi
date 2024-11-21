@@ -23,7 +23,7 @@ import java.util.Arrays;
  * - Displays three analytics: total requests, average response time, and the most common source currency.
  * - Lists all interaction logs in a tabular format.
  */
-@WebServlet("/dashboard")
+//@WebServlet("/dashboard")
 public class DashboardServlet extends HttpServlet {
 
     private MongoCollection<Document> logCollection;

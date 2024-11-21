@@ -30,7 +30,7 @@ import java.util.Map;
  * - Logs six pieces of information including request details, converted amount, and response time.
  * - Stores logs persistently in MongoDB Atlas.
  */
-@WebServlet("/convertCurrency")
+//@WebServlet("/convertCurrency")
 public class CurrencyConverterServlet extends HttpServlet {
 
     private static final String FIXER_API_URL = "http://data.fixer.io/api/latest"; // Base URL for Fixer API
