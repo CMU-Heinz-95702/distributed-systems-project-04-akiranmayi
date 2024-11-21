@@ -14,4 +14,14 @@
         <servlet-name>CurrencyConverterServlet</servlet-name>
         <url-pattern>/convertCurrency</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DashboardServlet</servlet-name>
+        <servlet-class>ds.project4_currencyconverter.DashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DashboardServlet</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
 </web-app>
