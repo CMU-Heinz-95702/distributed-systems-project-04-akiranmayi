@@ -6,12 +6,11 @@ This project implements a distributed application that converts currencies using
 Architecture:  
 The project follows a distributed architecture with the following components:
 
-Mobile Application (Android): A native Android app allows users to input two currencies (base and target) and displays the conversion rate.
-Web Service (Codespaces): A Java-based web service hosted on GitHub Codespaces receives HTTP requests from the Android app, queries the Fixer API, and returns the exchange rate.
-MongoDB Atlas: A cloud-hosted NoSQL database stores logs of all user requests and responses for analytics and debugging.
-Web Dashboard: A web-based dashboard displays logs and usage analytics.
-(Replace with the actual path or URL of your architecture diagram.)
-
+Mobile Application (Android): A native Android app allows users to input two currencies (base and target) and displays the conversion rate.  
+Web Service (Codespaces): A Java-based web service hosted on GitHub Codespaces receives HTTP requests from the Android app, queries the Fixer API, and returns the exchange rate.  
+MongoDB Atlas: A cloud-hosted NoSQL database stores logs of all user requests and responses for analytics and debugging.  
+Web Dashboard: A web-based dashboard displays logs and usage analytics.  
+  
 Features:  
 
 Android App:  
